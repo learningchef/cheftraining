@@ -3,7 +3,7 @@ UBUNTU1404_SERVER_AMD64 := $(winry_ubuntu)/ubuntu-14.04.1-server-amd64.iso
 
 VIRTUALBOX_VERSION := $(shell virtualbox --help | head -n 1 | awk '{print $$NF}')
 VMWARE_VERSION := 9.8.4
-PARALLELS_VERSION := $9shell prlctl --version | awk '{print $$3}')
+PARALLELS_VERSION := $(shell prlctl --version | awk '{print $$3}')
 VMWARE_BOX_FILES := $(wildcard box/vmware/*.box)
 VIRTUALBOX_BOX_FILES := $(wildcard box/virtualbox/*.box)
 PARALLELS_BOX_FILES := $(wildcard box/parallels/*.box)
