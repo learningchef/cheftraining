@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.2 (2014-11-16)
+
+* Upgrade VMware Tools to version 9.8.4 for VMware Fusion 7
+* Upgrade Docker to version 1.3.1
+* Added Parallels target
+* Upgrade Chef Development Kit to 0.3.5-1
+
 ## 1.0.1 (2014-10-19)
 
 * Ubuntu upgraded to 14.04.1
