@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3 (2014-11-26)
+
+* Upgrade VirtualBox Guest Additions to 4.3.20
+* Upgrade Docker to version 1.3.2
+
 ## 1.0.2 (2014-11-16)
 
 * Upgrade VMware Tools to version 9.8.4 for VMware Fusion 7
